@@ -1,6 +1,6 @@
 # informed-citizen
 
-this is a repo for a project centered around public office transparency
+this is a repo for a progressive web app centered around public office transparency
 
 using public apis to collect and display information about the user's elected officials
 and their actions as public servants
