@@ -1,7 +1,7 @@
 const Home  = () => {
     return (
         <div className="content">
-            BOILERPLATE HOME
+            INFORMED CITIZEN
         </div>
       );
 }

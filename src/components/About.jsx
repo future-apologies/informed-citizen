@@ -1,7 +1,7 @@
 const About = () => {
     return ( 
         <div className="content">
-            ABOUT BOILERPLATE
+            ABOUT INFORMED CITIZEN
         </div>
      );
 }
