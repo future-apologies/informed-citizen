@@ -7,6 +7,7 @@ using public apis to collect and display information about the user's elected of
 each user will provide their home(voting) address and expect persistent sessions with relevant feeds from public officers that represent them
 
 steps to complete:
+
 #1 PURPOSE AND SCOPE
 identifying the specific government departments, agencies, or organizations that the application will focus on, as well as the types of information and data that will be made available to the public.
 
