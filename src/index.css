@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap");
 
 /* base styles */
 * {
   margin: 0;
-  font-family: "Bebas Neue";
+  font-family: "Old Standard";
   color: #333;
   background-color: rgb(250, 244, 235);
   /* color: rgb(250, 244, 235, 0.5);
@@ -13,6 +13,10 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 0.5em;
 }
+.main-title {
+  font-family: "UnifrakturMaguntia", cursive;
+}
+
 .navbar {
   padding: 20px;
   display: flex;
