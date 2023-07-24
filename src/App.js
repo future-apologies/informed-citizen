@@ -1,6 +1,8 @@
 import './index.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Representatives from './components/Representatives';
+import Legislation from './components/Legislation';
 import About from './components/About';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/Representatives',
+        element: <Representatives />
+      },
+      {
+        path: '/Legislation',
+        element: <Legislation />
       },
       {
         path: '/about',
