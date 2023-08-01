@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -6,7 +7,13 @@ import Legislation from './components/Legislation';
 import About from './components/About';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 
-const HeaderLayout = () => (
+const API_KEY = process.env.REACT_APP_PROPUBLICA_API_KEY;
+const baseURL = "https://api.propublica.org/congress/v1/117/senate/members.json";
+const headers = {
+  'X-API-Key': API_KEY,
+};
+
+const HeaderLayout = (API_KEY, basURL, headers) => (
   <>
     <header>
       <Navbar />
@@ -21,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />
+        element: <Home baseURL={baseURL} API_KEY={API_KEY} headers={headers}/>
       },
       {
         path: '/Representatives',
@@ -41,7 +48,6 @@ const router = createBrowserRouter([
 
 
 function App() {
-
 
   return (
     <div className="App">
