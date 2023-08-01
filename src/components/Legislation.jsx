@@ -3,7 +3,8 @@ import React from 'react';
 const Legislation  = () => {
     return (
         <div className="content">
-            <h2 className="main-title">Legislation</h2>
+            <h1 className="main-title">Informed Citizen</h1>
+            <h2>Legislation</h2>
         </div>
       );
 }
