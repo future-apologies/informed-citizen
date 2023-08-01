@@ -28,7 +28,7 @@ const Representatives = () => {
 
   return (
     <div>
-      <h1>Congress Members from New York</h1>
+      <h1>Reprensentatives</h1>
       <ul>
         {members.map((member) => (
           <li key={member.id}>
