@@ -29,9 +29,6 @@ const Representatives = () => {
   return (
     <div>
       <div className="content">
-        <h1 className="main-title">Informed Citizen</h1>
-      </div>
-      <div className="content">
         <p>REPRESENTATIVES</p>
       </div>
       <ul>
