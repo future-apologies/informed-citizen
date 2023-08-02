@@ -28,12 +28,17 @@ const Representatives = () => {
 
   return (
     <div>
-      <h1>Reprensentatives</h1>
+      <div className="content">
+        <p>REPRESENTATIVES</p>
+      </div>
       <ul>
         {members.map((member) => (
-          <li key={member.id}>
-            {member.first_name} {member.last_name} ({member.party}) - {member.role}
-          </li>
+          <div className='content'>
+            <li key={member.id} className='member-preview'>
+              {member.first_name} {member.last_name} ({member.party}) - {member.role}
+            </li>
+          </div>
+
         ))}
       </ul>
     </div>
