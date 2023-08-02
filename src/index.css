@@ -10,8 +10,8 @@
   background-color: #0e0d0d; */
 }
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 0.5em;
+  font-family: "Old Standard";
+  font-size: 1em;
 }
 .main-title {
   font-family: "UnifrakturMaguntia", cursive;
@@ -36,10 +36,40 @@ p {
 
 .content {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 5px auto;
   padding: 20px;
   align-items: center;
   display: flex;
   justify-content: center;
   font-size: xx-large;
+}
+
+/* work previews / list */
+.member-preview {
+  color: #333;
+  padding: 5px 4px;
+  margin: 0px 0;
+  width: 100%;
+  min-height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.member-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.member-preview h2 {
+  font-weight: 600;
+}
+.member-preview p {
+  background: none;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.member-preview a {
+  color: #333;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
 }

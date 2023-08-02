@@ -1,7 +1,7 @@
 const About = () => {
     return ( 
         <div className="content">
-            ABOUT INFORMED CITIZEN
+            <p>ABOUT INFORMED CITIZEN</p>
         </div>
      );
 }
